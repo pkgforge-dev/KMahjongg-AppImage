@@ -12,7 +12,7 @@ export ICON=/usr/share/icons/hicolor/128x128/apps/kmahjongg.png
 export DESKTOP=/usr/share/applications/org.kde.kmahjongg.desktop
 
 # Deploy dependencies
-quick-sharun /usr/bin/kmahjongg /usr/share/kmahjongg
+quick-sharun /usr/bin/kmahjongg /usr/share/kmahjongg /usr/lib/qt6/plugins/kf6
 
 # Additional changes can be done in between here
 
