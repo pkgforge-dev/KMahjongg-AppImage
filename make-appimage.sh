@@ -13,7 +13,7 @@ export DESKTOP=/usr/share/applications/org.kde.kmahjongg.desktop
 export STARTUPWMCLASS=org.kde.kmahjongg
 
 # Deploy dependencies
-quick-sharun /usr/bin/kmahjongg /usr/share/kmahjongg /usr/lib/qt6/plugins/kf6
+quick-sharun /usr/bin/kmahjongg /usr/share/kmahjongg /usr/share/config.kcfg /usr/lib/qt6/plugins/kf6
 
 # Additional changes can be done in between here
 
