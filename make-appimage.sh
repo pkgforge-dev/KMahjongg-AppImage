@@ -15,7 +15,7 @@ export DEPLOY_QT=1
 export QT_DIR=qt6
 
 # Deploy dependencies
-quick-sharun /usr/bin/kmahjongg /usr/share/kmahjongg /usr/share/config.kcfg /usr/lib/libKMahjongg6.so* /usr/lib/qt6/plugins/kf6
+quick-sharun /usr/bin/kmahjongg /usr/share/kmahjongg /usr/share/config.kcfg /usr/lib/libKMahjongg6.so* /usr/share/kmahjongglib #/usr/lib/qt6/plugins/kf6
 
 # Additional changes can be done in between here
 
