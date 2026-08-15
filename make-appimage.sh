@@ -3,7 +3,7 @@
 set -eu
 
 ARCH=$(uname -m)
-VERSION=$(pacman -Q kmahjongg | awk '{print $2; exit}') # example command to get version of application here
+VERSION=$(pacman -Q kmahjongg | awk '{print $2; exit}')
 export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
@@ -16,8 +16,6 @@ export QT_DIR=qt6
 
 # Deploy dependencies
 quick-sharun /usr/bin/kmahjongg /usr/share/kmahjongg /usr/share/config.kcfg /usr/lib/libKMahjongg6.so* /usr/share/kmahjongglib
-
-# Additional changes can be done in between here
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
