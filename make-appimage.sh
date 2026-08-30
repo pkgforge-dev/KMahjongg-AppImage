@@ -11,8 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/128x128/apps/kmahjongg.png
 export DESKTOP=/usr/share/applications/org.kde.kmahjongg.desktop
 export STARTUPWMCLASS=org.kde.kmahjongg
-export DEPLOY_QT=1
-export QT_DIR=qt6
+export USE_HOST_DRIVERS_EXPERIMENTAL=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/kmahjongg /usr/share/kmahjongg /usr/share/config.kcfg /usr/lib/libKMahjongg6.so* /usr/share/kmahjongglib
